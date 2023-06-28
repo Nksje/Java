@@ -1,6 +1,7 @@
 
 // import java.util.Scanner;
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,16 +65,52 @@ public class Main {
         // System.out.println(friends);
 
         /* 4. GUI intro */
-        String name = JOptionPane.showInputDialog("Enter your name: ");
+        // String name = JOptionPane.showInputDialog("Enter your name: ");
 
-        JOptionPane.showMessageDialog(null, "Hello " + name);
+        // JOptionPane.showMessageDialog(null, "Hello " + name);
 
-        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
+        // int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
 
-        JOptionPane.showMessageDialog(null, "You are " + age + " years old!");
+        // JOptionPane.showMessageDialog(null, "You are " + age + " years old!");
 
-        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height: "));
+        // double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your
+        // height: "));
 
-        JOptionPane.showMessageDialog(null, "Your height is " + height + "cm");
+        // JOptionPane.showMessageDialog(null, "Your height is " + height + "cm");
+
+        /* 5. Math class */
+
+        // double x = 3.14;
+        // double y = -10;
+
+        // double z = Math.min(x, y);
+        // double g = Math.max(x, y);
+        // double h = Math.abs(y);
+        // h = Math.ceil(x)
+        // double x;
+        // double y;
+        // double z;
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("Enter side x: ");
+        // x = scanner.nextDouble();
+        // System.out.println("Enter side y: ");
+        // y = scanner.nextDouble();
+        // System.out.println("Enter side z: ");
+        // z = Math.sqrt((x * x) + (y * y));
+        // System.out.println(z);
+
+        // scanner.close();
+
+        /* 6. Random numbers */
+
+        Random random = new Random();
+
+        // int x = random.nextInt(6) + 1;
+        // double y = random.nextDouble();
+        boolean z = random.nextBoolean();
+
+        System.out.println(z);
+
     }
 }
