@@ -1,7 +1,7 @@
 
 // import java.util.Scanner;
 // import javax.swing.JOptionPane;
-import java.util.Random;
+// import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -104,13 +104,22 @@ public class Main {
 
         /* 6. Random numbers */
 
-        Random random = new Random();
+        // Random random = new Random();
 
-        // int x = random.nextInt(6) + 1;
-        // double y = random.nextDouble();
-        boolean z = random.nextBoolean();
+        // // int x = random.nextInt(6) + 1;
+        // // double y = random.nextDouble();
+        // boolean z = random.nextBoolean();
 
-        System.out.println(z);
+        // System.out.println(z);
 
+        /* 7. IF statements */
+
+        int age = 15;
+
+        if (age >= 18) {
+            System.out.println("You are an adult!");
+        } else {
+            System.out.println("You are a child!");
+        }
     }
 }
