@@ -3,6 +3,8 @@
 // import javax.swing.JOptionPane;
 // import java.util.Random;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println("Hello");
@@ -114,12 +116,81 @@ public class Main {
 
         /* 7. IF statements */
 
-        int age = 15;
+        // int age = 15;
 
-        if (age >= 18) {
-            System.out.println("You are an adult!");
-        } else {
-            System.out.println("You are a child!");
-        }
+        // if (age >= 18) {
+        // System.out.println("You are an adult!");
+        // } else {
+        // System.out.println("You are a child!");
+        // }
+
+        /* 8. Switches */
+
+        // String day = "Pizza";
+
+        // switch (day) {
+        // case "Sunday":
+        // System.out.println("It is Sunday");
+        // break;
+        // case "Monday":
+        // System.out.println("It is Monday");
+        // break;
+        // case "Tuesday":
+        // System.out.println("It is Tuesday");
+        // break;
+        // case "Wednesday":
+        // System.out.println("It is Wednesday");
+        // break;
+        // case "Thursday":
+        // System.out.println("It is Thursday");
+        // break;
+        // case "Friday":
+        // System.out.println("It is Friday");
+        // break;
+        // case "Saturday":
+        // System.out.println("It is Saturday");
+        // break;
+        // default:
+        // System.out.println("That is not a day!");
+        // }
+
+        /* 9. Logical operators */
+
+        // int temp = 19;
+
+        // && - AND
+        // if (temp > 30) {
+        // System.out.println("It is hot outside");
+        // } else if (temp >= 20 && temp <= 30) {
+        // System.out.println("It's pretty nice outside");
+        // } else {
+        // System.out.println("It might be cold outisde.");
+        // }
+
+        // || - OR
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("You are playing a game! Press q or Q to quit!");
+
+        // String response = scanner.next();
+
+        // if (response.equals("q") || response.equals("Q")) {
+        // System.out.println("You quit the game");
+        // } else {
+        // System.out.println("You are still playing the game *pew pew*");
+        // }
+
+        // ! - NOT
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("You are playing a game! Press q or Q to quit!");
+        // String response = scanner.next();
+
+        // if (!response.equals("q") && !response.equals("Q")) {
+        // System.out.println("You're still in the game, keep going!");
+        // } else {
+        // System.out.println("Thanks for letting me know you want to leave :D ");
+        // }
     }
 }
