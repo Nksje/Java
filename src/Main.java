@@ -192,5 +192,20 @@ public class Main {
         // } else {
         // System.out.println("Thanks for letting me know you want to leave :D ");
         // }
+
+        /* 10. While loop */
+
+        // while loop = executes a block of code as long as a it's condition remains
+        // true
+
+        Scanner scanner = new Scanner(System.in);
+        String name = "";
+
+        do {
+            System.out.println("Enter your name: ");
+            name = scanner.nextLine();
+        } while (name.isBlank());
+
+        System.out.println("Hello " + name);
     }
 }
